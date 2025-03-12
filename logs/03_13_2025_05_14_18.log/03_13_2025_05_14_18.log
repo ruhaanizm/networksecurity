@@ -1,0 +1,6 @@
+[ 2025-03-13 05:14:25,645 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-03-13 05:14:25,648 ] 107 dagshub - INFO - Accessing as ruhaanizm
+[ 2025-03-13 05:14:26,262 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/ruhaanizm/networksecurity "HTTP/1.1 200 OK"
+[ 2025-03-13 05:14:26,977 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-03-13 05:14:26,980 ] 107 dagshub - INFO - Initialized MLflow to track repo "ruhaanizm/networksecurity"
+[ 2025-03-13 05:14:26,981 ] 107 dagshub - INFO - Repository ruhaanizm/networksecurity initialized!
