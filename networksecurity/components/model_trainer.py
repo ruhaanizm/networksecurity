@@ -25,6 +25,10 @@ from sklearn.ensemble import (
 )
 import mlflow
 
+import dagshub
+dagshub.init(repo_owner='ruhaanizm', repo_name='networksecurity', mlflow=True)
+#now everytime i run this, the mlfow folder will not be created on my machine
+
 class ModelTrainer:
     def __init__(self,model_trainer_config:ModelTrainerConfig,data_transformation_artifact:DataTransformationArtifact):
         try:
